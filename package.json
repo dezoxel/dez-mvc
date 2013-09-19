@@ -1,0 +1,32 @@
+{
+  "name": "dez-mvc",
+  "version": "0.1.0",
+  "description": "MVC Layer for Scalable JavaScript Applications",
+  "main": "lib/app.js",
+  "scripts": {
+    "test": "grunt test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:dezoxel/dez-mvc.git"
+  },
+  "keywords": [
+    "MVC",
+    "JS",
+    "JavaScript",
+    "Scalable",
+    "Applications"
+  ],
+  "author": "Yuriy Buchchenko <ybuchchenko@cogniance.com>",
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "bugs": {
+    "url": "https://github.com/dezoxel/dez-mvc/issues"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib-jshint": "~0.6.2",
+    "grunt-contrib-jasmine": "~0.5.1",
+    "grunt-template-jasmine-requirejs": "~0.1.5"
+  }
+}
