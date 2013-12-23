@@ -1,0 +1,7 @@
+{
+  "testModuleKey": "testModuleValue",
+  "routes": {
+    "test/hello/:id": {"controller": "test.index"},
+    "test/:id/world": {"controller": "test.index"}
+  }
+}

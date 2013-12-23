@@ -2,18 +2,18 @@
   "name": "dez-mvc",
   "version": "0.1.0",
   "authors": [
-    "Yuriy Buchchenko <ybuchchenko@cogniance.com>"
+    "Yuriy Buchchenko <dezoxel@gmail.com>"
   ],
-  "description": "MVC Layer for Scalable JavaScript Applications",
+  "description": "Web framework for Scalable JavaScript Applications",
   "main": "lib/app.js",
   "keywords": [
+    "Dez",
     "MVC",
     "JS",
     "JavaScript",
     "Scalable",
     "Applications"
   ],
-  "license": "MIT",
   "ignore": [
     "**/.*",
     "node_modules",
@@ -22,8 +22,12 @@
     "tests"
   ],
   "dependencies": {
-    "canjs": "~1.1.7",
+    "requirejs": "~2.1.8",
+    "requirejs-text": "~2.0.10",
+    "require-css": "~0.0.8",
+    "dez-router": "~0.4",
     "jquery": "~2.0.3",
-    "underscore": "~1.5.2"
+    "canjs": "~1.1.7",
+    "socket.io-client": "~0.9.16"
   }
 }

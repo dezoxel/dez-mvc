@@ -1,0 +1,9 @@
+{
+  "hello": "world",
+  "homeController": "home.index",
+  "registeredModules": [
+    "home",
+    "test"
+  ],
+  "appSelector": "#app"
+}
